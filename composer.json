@@ -1,0 +1,31 @@
+{
+  "name": "light/php-cs-fixer-config",
+  "description": "PHP CS Fixer config for light components",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lichunqiang",
+      "email": "light-li@hotmail.com",
+      "homepage": "http://blog.lzuer.net"
+    }
+  ],
+  "require": {
+    "php": "^7.1|^7.0",
+    "friendsofphp/php-cs-fixer": "2.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.6",
+    "satooshi/php-coveralls": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Light\\CS\\Config\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LightTest\\CS\\Config\\": "test"
+    }
+  }
+}
